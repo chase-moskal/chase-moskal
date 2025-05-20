@@ -1,0 +1,43 @@
+{
+	"private": true,
+	"name": "@chasemoskal/website",
+	"version": "0.0.0-0",
+	"description": "buildercore wizard",
+	"license": "MIT",
+	"author": "Chase Moskal <chasemoskal@gmail.com>",
+	"type": "module",
+	"main": "x/index.js",
+	"files": [
+		"x",
+		"s"
+	],
+	"scripts": {
+		"build": "rm -rf x && mkdir x && run-s _ln _code _ssg",
+		"_code": "turtle build --out=x",
+		"_ssg": "turtle ssg --in=s,x --out=x",
+		"start": "run-p _http _turtlewatch",
+		"_http": "http-server x",
+		"_turtlewatch": "turtle watch --in=s,x --out=x -v",
+		"_ln": "run-s _ln:s _ln:assets",
+		"_ln:s": "ln -s \"$(realpath s)\" x/s",
+		"_ln:assets": "ln -s \"$(realpath assets)\" x/assets",
+		"test": "exit 0"
+	},
+	"dependencies": {
+		"@benev/slate": "^0.3.4"
+	},
+	"devDependencies": {
+		"@benev/turtle": "^0.6.12",
+		"http-server": "^14.1.1",
+		"npm-run-all": "^4.1.5",
+		"typescript": "^5.8.3"
+	},
+	"homepage": "https://github.com/chase-moskal",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/chase-moskal/chase-moskal.git"
+	},
+	"bugs": {
+		"url": "https://github.com/chase-moskal/chase-moskal/issues"
+	}
+}
