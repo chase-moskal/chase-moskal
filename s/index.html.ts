@@ -23,7 +23,7 @@ export default template(async basic => {
 			<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@900&family=Share+Tech&display=swap" rel="stylesheet">
 
 			${renderSocialCard({
-				themeColor: "#f90",
+				themeColor: "#a7ff78",
 				siteName: "chasemoskal.com",
 				title: "CHASE MOSKAL",
 				description: "unrelenting buildercore maniac",
