@@ -51,11 +51,14 @@ export default template(async basic => {
 				<a href="/assets/fastfetch.png">arch btw</a>
 			</nav>
 
-			<blockquote>
-				<p><strong>A cheap laptop is all you need to touch the lives of millions.</strong></p>
-				<p>If only you knew how to type the right sequence of keystrokes.</p>
-				<p>Too bad software is the hardest thing in the world.</p>
-			</blockquote>
+			<div class=plate>
+				<img class=avatar alt="" src="/assets/chase.avif"/>
+				<blockquote>
+					<p><strong>A cheap laptop is all you need to touch the lives of millions.</strong></p>
+					<p>If only you knew how to type the right sequence of keystrokes.</p>
+					<p>Too bad software is the hardest thing in the world.</p>
+				</blockquote>
+			</div>
 		`,
 	})
 })

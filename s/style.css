@@ -13,11 +13,12 @@
 		--link: cyan;
 		--prime: #a7ff78;
 		--primebright: color-mix(in srgb, white, var(--prime) 50%);
+		--accent: #f70;
 	}
 
 	::selection {
 		color: white;
-		background-color: color-mix(in srgb, black, var(--prime) 70%);
+		background-color: var(--accent);
 	}
 
 	::-webkit-scrollbar { width: 4px; }
@@ -103,26 +104,50 @@
 		gap: 0.5em 2em;
 	}
 
-	blockquote {
-		max-width: 32em;
-		text-align: center;
-		padding: 1em;
+	.plate {
+		display: flex;
+		flex-wrap: wrap;
+		width: max-content;
+		max-width: 100%;
 
 		border-radius: 1em;
+
 		-webkit-backdrop-filter: blur(0.4em);
 		backdrop-filter: blur(0.4em);
-
 		box-shadow: inset 0 0 2em color-mix(in lch, transparent, var(--prime) 10%);
+
+		.avatar {
+			position: relative;
+			z-index: 1;
+
+			object-fit: cover;
+			user-select: none;
+			pointer-events: none;
+
+			flex: 0 0 auto;
+			max-width: 100%;
+			width: 7em;
+			height: 7em;
+
+			border-radius: 1em;
+			border: 0.2em solid color-mix(in lch, transparent, var(--accent) 80%);
+			box-shadow: 0 0 2em color-mix(in lch, transparent, var(--accent) 30%);
+		}
+	}
+
+	blockquote {
+		flex: 1 1 10em;
+		padding: 1em;
+		text-align: left;
+
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: start;
 
 		> * + * {
 			margin-top: 0.5em;
 		}
-	}
-
-	.fastfetch {
-		display: block;
-		max-width: 24em;
-		border-radius: 1em;
 	}
 }
 
