@@ -2,18 +2,14 @@
 # https://chasemoskal.com/
 
 born 1992. life-long coder. senior. architect.  
-warlock energy. alchemy.  
-actually, unhinged buildercore maniac.  
+deep in monk mode. dedicated to the craft.  
+warlock. alchemist.. no, actually.. "unhinged buildercore maniac".  
 
-deep in monk mode. life dedicated to the craft.  
-care about nothing else.  
-doing *nothing* else.  
-
-darkness for silence. silence for focus.  
+darkness for the silence. silence for the focus.  
 build until i'm hungry. eat until i'm not.  
 build until i'm tired. sleep until i'm not.  
 
-blackout curtains. wake at noon. coffee at one.  
+blackout curtains. coffee at noon.  
 did i build it right? or was it the right thing to build?  
 failed again? skill issue. deadwood to burn.  
 
