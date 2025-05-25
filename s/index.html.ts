@@ -45,9 +45,9 @@ export default template(async basic => {
 
 			<nav>
 				<a href="https://github.com/chase-moskal">github</a>
+				<a href="https://e280.org/">e280</a>
 				<a href="https://authlocal.org/">authlocal</a>
 				<a href="https://benevolent.games/">benevolent</a>
-				<a href="https://e280.org/">e280</a>
 				<a href="/assets/fastfetch.png">arch btw</a>
 			</nav>
 
