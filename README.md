@@ -5,7 +5,7 @@ born 1992. life-long coder. senior engineer. architect. unhinged buildercore man
 
 deep in monk mode. life dedicated to the craft. care about nothing else. doing *nothing* else.
 
-darkness provides silence. silence provides focus.
+darkness for silence. silence for focus.
 
 build until i'm hungry. eat until i'm not.
 
@@ -21,7 +21,7 @@ skipped breakfast. forgot lunch. i don't do "weekends".
 
 burnout, my old familiar, now kneels before me.
 
-imagine sisyphus happy. this will only hurt a little.
+just imagine sisyphus happy. this will only hurt a little.
 
 https://benevolent.games/
 
