@@ -3,7 +3,7 @@ import "@benev/slate/x/node.js"
 import {template, html, easypage, headScripts, git_commit_hash, read_file, unsanitized, renderSocialCard} from "@benev/turtle"
 
 const domain = "chasemoskal.com"
-const favicon = "/assets/c.png"
+const favicon = "/assets/holo.png"
 
 export default template(async basic => {
 	const path = basic.path(import.meta.url)
@@ -23,7 +23,7 @@ export default template(async basic => {
 			<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@900&family=Share+Tech&display=swap" rel="stylesheet">
 
 			${renderSocialCard({
-				themeColor: "#a7ff78",
+				themeColor: "#ff7700",
 				siteName: "chasemoskal.com",
 				title: "CHASE MOSKAL",
 				description: "unrelenting buildercore maniac",
