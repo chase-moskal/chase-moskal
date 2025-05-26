@@ -107,6 +107,7 @@
 	.plate {
 		display: flex;
 		flex-wrap: wrap;
+		justify-content: center;
 		width: max-content;
 		max-width: 100%;
 
