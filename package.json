@@ -23,13 +23,13 @@
 		"test": "exit 0"
 	},
 	"dependencies": {
-		"@e280/sly": "^0.2.0-26"
+		"@e280/sly": "^0.4.6"
 	},
 	"devDependencies": {
-		"@e280/scute": "^0.1.0",
+		"@e280/scute": "^0.5.2",
 		"http-server": "^14.1.1",
 		"npm-run-all": "^4.1.5",
-		"typescript": "^5.9.3"
+		"typescript": "^7.0.2"
 	},
 	"homepage": "https://github.com/chase-moskal",
 	"repository": {
@@ -38,5 +38,8 @@
 	},
 	"bugs": {
 		"url": "https://github.com/chase-moskal/chase-moskal/issues"
+	},
+	"allowScripts": {
+		"esbuild@0.28.2": true
 	}
 }
