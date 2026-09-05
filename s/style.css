@@ -110,8 +110,8 @@
 		justify-content: center;
 		width: max-content;
 		max-width: 100%;
-		padding: 0.5em;
-		gap: 1em;
+		padding: 1em;
+		gap: 0.5em;
 
 		border-radius: 1em;
 
