@@ -36,15 +36,15 @@ export default template(import.meta.url, async orb => html`
 		<body>
 			<h1>
 				<strong>CHASE MOSKAL</strong>
-				<span class=version>v2.0.0-1</span>
+				<span class=version>${orb.packageVersion()}</span>
 			</h1>
 
 			<nav>
 				<a href="https://github.com/chase-moskal">github</a>
+				<a href="https://benev.gg/">benev</a>
 				<a href="https://e280.org/">e280</a>
 				<a href="https://authlocal.org/">authlocal</a>
-				<a href="https://benevolent.games/">benevolent</a>
-				<a href="/assets/fastfetch.png">arch btw</a>
+				<a href="/assets/fastfetch.webp">arch btw</a>
 			</nav>
 
 			<div class=plate>
