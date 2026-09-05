@@ -20,10 +20,10 @@ export default template(import.meta.url, async orb => html`
 			${socialCard({
 				title,
 				siteName: domain,
-				themeColor: "#ff7700",
+				themeColor: "#a7ff78",
 				url: `https://${domain}/`,
 				image: `https://${domain}${favicon}`,
-				description: "relentless buildercore maniac",
+				description: "obsessed buildercore maniac",
 			})}
 
 			<link rel="stylesheet" href="${orb.hashurl("style.css")}"/>

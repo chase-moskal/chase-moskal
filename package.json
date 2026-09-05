@@ -13,7 +13,7 @@
 	],
 	"scripts": {
 		"build": "rm -rf x && mkdir x && tsc && ln -s ../s x/s && ln -s ../assets x/assets && scute -v",
-		"dev": "octo 'scute -vw' 'tsc -w' 'http-server x'",
+		"dev": "npm run build -s && octo 'scute -vw' 'tsc -w' 'http-server x'",
 		"test": "exit 0"
 	},
 	"dependencies": {

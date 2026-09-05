@@ -133,8 +133,8 @@
 			height: 7em;
 
 			border-radius: 1em;
-			border: 0.2em solid color-mix(in lch, transparent, var(--accent) 80%);
-			box-shadow: 0 0 2em color-mix(in lch, transparent, var(--accent) 30%);
+			border: 0.2em solid color-mix(in lch, transparent, var(--prime) 80%);
+			box-shadow: 0 0 2em color-mix(in lch, transparent, var(--prime) 30%);
 		}
 	}
 
