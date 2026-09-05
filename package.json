@@ -16,6 +16,9 @@
 		"dev": "npm run build -s && octo 'scute -vw' 'tsc -w' 'hottie x'",
 		"test": "exit 0"
 	},
+	"allowScripts": {
+		"esbuild@0.28.2": true
+	},
 	"dependencies": {
 		"@e280/sly": "^0.4.6"
 	},
@@ -33,8 +36,5 @@
 	},
 	"bugs": {
 		"url": "https://github.com/chase-moskal/chase-moskal/issues"
-	},
-	"allowScripts": {
-		"esbuild@0.28.2": true
 	}
 }
