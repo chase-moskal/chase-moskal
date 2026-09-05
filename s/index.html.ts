@@ -50,9 +50,9 @@ export default template(import.meta.url, async orb => html`
 			<div class=plate>
 				<img class=avatar alt="" src="/assets/chase.webp"/>
 				<blockquote>
-					<p><strong>a cheap laptop is all you need to touch the lives of millions.</strong></p>
-					<p>if only you knew how to type the right sequence of keystrokes.</p>
-					<p>too bad software is the hardest thing in the world.</p>
+					<p><strong>ai helps people generate lots of code.</strong></p>
+					<p>but we don't need more code.</p>
+					<p><em>we need less.</em></p>
 				</blockquote>
 			</div>
 		</body>
