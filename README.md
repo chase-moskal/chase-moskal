@@ -6,8 +6,8 @@ obsessed buildercore warlock.
 
 darkness for silence. silence for focus.
 
-"just imagine sisyphus happy."  
+*just imagine sisyphus happy.*  
 
 https://e280.org/ — my web tech  
-https://benevolent.games/ — my game tech  
+https://benev.gg/ — my game tech  
 
